@@ -1,0 +1,4 @@
+setuptools~=40.4.3  
+mypy~=0.641
+mypy-extensions~=0.4.1
+pyre-check~=0.0.17

@@ -1,0 +1,3 @@
+from typing import Dict, Tuple
+
+def bar(x: Dict[str, Tuple]) -> int: ...

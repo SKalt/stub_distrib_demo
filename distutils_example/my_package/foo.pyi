@@ -1,0 +1,3 @@
+from typing import Dict, Tuple
+
+def foo(x: Dict[str, Tuple]) -> int: ...
