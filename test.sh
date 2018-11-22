@@ -22,7 +22,7 @@ echo "  ******  testing distutils example  *****  "
 hr mypy
 mypy ./consumer/distutils_example
 hr pyre
-pyre $(get_search_path) --source-directory ./consumer/distutils_example check
+pyre $(get_search_path) --show-parse-errors --source-directory ./consumer/distutils_example check
 hr
 
 echo
@@ -32,7 +32,7 @@ hr mypy
 mypy ./consumer/setuptools_example
 echo
 hr pyre
-pyre $(get_search_path) --source-directory ./consumer/setuptools_example check
+pyre $(get_search_path) --show-parse-errors --source-directory ./consumer/setuptools_example check
 echo
 echo
 
